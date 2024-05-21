@@ -37,6 +37,6 @@ License
 QuickQuiz is released under the MIT License.
 
 Contact
-For any questions or suggestions, please contact us at your-khopadeayush96@gmail.com.
+For any questions or suggestions, please contact us at khopadeayush96@gmail.com.
 
 QuickQuiz aims to provide a fun and straightforward way to test and expand your knowledge. Enjoy quizzing!
