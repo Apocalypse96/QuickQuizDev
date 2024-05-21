@@ -14,7 +14,7 @@ To install and run QuickQuiz locally, follow these steps:
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/quickquiz.git
+git clone (https://github.com/Apocalypse96/QuickQuizDev)
 Navigate to the project directory:
 bash
 Copy code
@@ -37,6 +37,6 @@ License
 QuickQuiz is released under the MIT License.
 
 Contact
-For any questions or suggestions, please contact us at your-email@example.com.
+For any questions or suggestions, please contact us at your-khopadeayush96@gmail.com.
 
 QuickQuiz aims to provide a fun and straightforward way to test and expand your knowledge. Enjoy quizzing!
