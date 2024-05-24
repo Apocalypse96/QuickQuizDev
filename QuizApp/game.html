@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz - Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quizGame" class="justify-center flex-column">
+            <div id="quizHud">
+                <div class="hudItem">
+                    <p id="quizProgressText" class="hudPrefix">Question</p>
+                    <div id="quizProgressBar">
+                        <div id="quizProgressBarFull"></div>
+                    </div>
+                </div>
+                <div class="hudItem">
+                    <p class="hudPrefix">Score</p>
+                    <h1 class="hudMainText" id="quizScore">0</h1>
+                </div>
+            </div>
+            <h2 id="quizQuestion">What is the answer to this question?</h2>
+            <div class="choiceContainer">
+                <p class="choicePrefix">A</p>
+                <p class="choiceText" data-number="1">Choice 1</p>
+            </div>
+            <div class="choiceContainer">
+                <p class="choicePrefix">B</p>
+                <p class="choiceText" data-number="2">Choice 2</p>
+            </div>
+            <div class="choiceContainer">
+                <p class="choicePrefix">C</p>
+                <p class="choiceText" data-number="3">Choice 3</p>
+            </div>            
+            <div class="choiceContainer">
+                <p class="choicePrefix">D</p>
+                <p class="choiceText" data-number="4">Choice 4</p>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

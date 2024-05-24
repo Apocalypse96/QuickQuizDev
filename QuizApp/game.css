@@ -1,0 +1,84 @@
+/* Choice Container */
+.choiceContainer {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(86, 165, 235, 0.25);
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.choiceContainer:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+/* Choice Prefix */
+.choicePrefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #56a5eb;
+    color: #ffffff;
+}
+
+/* Choice Text */
+.choiceText {
+    padding: 1.5rem 2.5rem;
+    width: 100%;
+}
+
+/* Correct and Incorrect */
+.correct {
+    background-color: #28a745;
+}
+
+.incorrect {
+    background-color: #dc3545;
+}
+
+/* HUD */
+#quizHud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hudPrefix {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.hudMainText {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Progress Bar */
+#quizProgressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #56a5eb;
+    margin-top: 1.5rem;
+}
+
+#quizProgressBarFull {
+    height: 3.5rem;
+    background-color: #56a5eb;
+    width: 0%;
+}
+
+/* Body and Container */
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #1e1e1e;
+
+    padding: 20px;
+    border-radius: 10px;
+}
